@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+}
+
+.header {
+    width: 80%;
+    margin: auto;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo img {
+    width: 60px;
+
+}
+
+.nav-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-list li {
+    margin: auto 20px;
+    font-weight: bold;
+}
+
+.nav-list li a{
+    color: #ffff;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-btns {
+    display: flex;
+}
+
+.header-content {
+    display: flex;
+    background:linear-gradient(to right, #BDB1C5, #DDD7D0);
+    min-height: 70vh;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-text {
+    border: 5;
+    background-image:background-color: rgba(0,0,0,.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+    flex-basis: 50%;
+    padding: 50px;
+}
+
+.intro-text h1 {
+    font-size: 60px;
+}
+.intro-text p {
+    color: #000;
+}
+
+.hero-img {
+    flex-basis: 50%;
+}
+
+.hero-img img {
+    max-width: 70%;
+    border-radius: 10px;
+}
+
+.btns {
+    margin: 30px;
+}
+.btn-primary {
+    padding: 12px;
+    background: linear-gradient(to right, #525252, #101010);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+}
+
+/* formtips.html*/
+.header-content2{
+    display: flex;
+    background: linear-gradient(to right, #BDB1C5, #DDD7D0);
+    min-height: 70vh;
+    border-radius: 50px;
+    align-items: left;
+    justify-content: left;
+}
+.intro-text2{
+    flex-basis: 50%;
+    padding: 50px;
+}
+
+.btns {
+    margin: 30px;
+}
+
+/form contact/
+.intro-text3 {
+    flex-basis: 50%;
+    padding: 50px;
+}
+
+.intro-text3 h1 {
+    font-size: 30px;
+}
+
+.btns2{
+    display: flex;
+    width: 100%;
+    justify-content: space;
+    list-style: none;
+}
+.btn-secondary{
+    padding: 12px;
+    background: linear-gradient(to right, #000, #101010);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+}
+.btn-third{
+    padding: 12px;
+    background: linear-gradient(to right, #000, #101010);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+}
